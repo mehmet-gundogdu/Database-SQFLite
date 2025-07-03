@@ -1,16 +1,1 @@
-# sqflite_demo
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This Flutter SQLite shopping app provides a complete local database solution for product management, featuring a Product model with ID, name, description, and price fields, and a DbHelper class handling SQLite operations (initialization, table creation, and CRUD functions). The UI includes three key screens: ProductList (displays items in a scrollable Card list with a FAB for additions), ProductAdd (form for new entries), and ProductDetail (view/edit/delete via popup menu). Built with the sqflite and path packages, the app demonstrates core Flutter patterns like navigation, state management via setState, form validation, and Material Design. Persistent data storage is achieved through automatic SQLite transactions, requiring only basic dependency setup (sqflite: ^2.0.0+4) before use. The clean architecture separates data, logic, and presentation layers while maintaining simplicity for small-scale inventory needs.
